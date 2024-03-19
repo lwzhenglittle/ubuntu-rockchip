@@ -80,7 +80,6 @@ jobs:
         matrix:
           project:
             - preinstalled-desktop
-            - preinstalled-server
           release:
           - ${{ github.event.inputs.release }}
 
